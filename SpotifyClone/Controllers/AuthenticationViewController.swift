@@ -17,11 +17,9 @@ class AuthenticationViewController: UIViewController, WKNavigationDelegate  {
         super.viewDidLoad()
         
         webView.navigationDelegate = self
-        
         guard let url = AuthManager.shared.signInURL else {
             return
         }
-        
         webView.load(URLRequest(url: url))
         
         
