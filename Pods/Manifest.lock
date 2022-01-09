@@ -1,0 +1,22 @@
+PODS:
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+  - SwiftSoup (2.3.4)
+
+DEPENDENCIES:
+  - SDWebImage
+  - SwiftSoup
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - SwiftSoup
+
+SPEC CHECKSUMS:
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  SwiftSoup: d5b9645498f8d09fdc5f96b9c70b5858099fd411
+
+PODFILE CHECKSUM: 0ab2ff867f7a93022ec7e4d72c11ba7436d1a33c
+
+COCOAPODS: 1.10.0
