@@ -15,14 +15,16 @@ class AuthenticationViewController: UIViewController, WKNavigationDelegate  {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        webViewSetUp()
+    }
+    
+    
+    private func webViewSetUp() {
         webView.navigationDelegate = self
         guard let url = AuthManager.shared.signInURL else {
             return
         }
         webView.load(URLRequest(url: url))
-        
-        
     }
     
     public var completionHandler:((Bool) -> Void)?
